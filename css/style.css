@@ -3,18 +3,30 @@
     background-color: #8EC480;
     padding: 40px;
 }
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.opciones
+{
+  
 
+}
 .opciones a{
+    margin-top: 100px;
     color:white;
+    height: 20px;
     text-align: center;
+    font-weight: 10px;
     background-color:#006438;
-    font-family: 'Times New Roman', Times, serif;
-    
+    letter-spacing: 4px;
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
     border: 10px;
-    margin: 20px 20px 20px 20px;
+    
+    
+   
   
    
 }
