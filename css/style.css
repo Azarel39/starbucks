@@ -93,8 +93,8 @@ padding-left: 10px;
 .container-right.first
 {
     background-color:#1E3932 ;
-    padding: 5px 0;
-    margin: 0 0 5px 0;
+    padding: 0px 0;
+    margin: 0 0 30px 0;
 }
 .container-right h1
 {
@@ -131,8 +131,8 @@ padding-left: 10px;
 .container-left.first
 {
     background-color:#0044B4 ;
-    padding: 5px 0; 
-    margin: 10px 0;
+    padding: 0px 0; 
+    margin: 0 0 30px 0;
 }
 .container-left h1
 {
@@ -144,4 +144,91 @@ padding-left: 10px;
 {
     color: white;
     font-size: 20px;
+}
+.container-right.second
+{
+    background-color:#D50032 ;
+    padding: 0px 0;
+    margin: 0 0 30px 0;
+}
+
+.container-left.second
+{
+    background-color:#1E3932 ;
+    padding: 0px 0; 
+    margin: 0 0 30px 0;
+}
+
+.container-right.tree
+{
+    background-color:#D50032 ;
+    padding: 0px 0;
+    margin: 0 0 30px 0;
+}
+
+
+.colums
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.container-colum
+{
+    display: block;
+}
+.container-colum img
+{
+    width: 100%;
+}
+.container-colum.first
+{
+    background-color: #F6BFD9;
+    
+    
+
+}
+.container-colum.second
+{
+    background-color: #98CDE4;
+}
+.container-colum.first h2
+{
+    color: red;
+}
+.container-colum.first p
+{
+    color: red;
+}
+.text
+{
+    display: flex;
+    width: 10px 10px;
+}
+.container-colum .text
+{
+    
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.container-2
+{
+    display: flex;
+    flex-direction: row
+}
+.a
+{
+    flex: 1;
+}
+.container-2.one
+{
+    background-color: #1E3932;
+}
+.container-2.two
+{
+    background-color: #D50032;
 }
