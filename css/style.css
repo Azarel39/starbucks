@@ -11,7 +11,7 @@ header
 {
     height: 80px;
     width: 100%;
-    box-shadow: 0 1px 3px rgba(0,0,0 / 10%),0 2px 2px rgba(0,0,0 / 7%);
+    border: 1px solid black;
     display: flex;
 
 }
@@ -70,4 +70,39 @@ padding-left: 20px;
     border-radius: 50px;
     display: flex;
     align-items: center;
+}
+.container-right
+{
+    display: flex;
+
+}
+.container-right img
+{
+    width: 59%;
+
+}
+.container-right .text
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container-right.first
+{
+    background-color:#1E3932 ;
+    padding: 5px 0;
+}
+.container-right h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.container-right p
+{
+    color: white;
+    font-size: 20px;
 }
