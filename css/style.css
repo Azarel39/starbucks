@@ -17,8 +17,8 @@ header
 }
 .logo
 {
-width: 50px;
-padding-left: 20px;
+width: 10px;
+padding-left: 10px;
 }
 .links_menu, .links_menu2
 {
@@ -28,7 +28,7 @@ padding-left: 20px;
 }
 .links_menu
 {
-    width: 28%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,7 +37,7 @@ padding-left: 20px;
 }
 .links_menu2
 {
-    width: 60%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content:  end;
@@ -78,7 +78,7 @@ padding-left: 20px;
 }
 .container-right img
 {
-    width: 59%;
+    width: 50%;
 
 }
 .container-right .text
@@ -94,6 +94,7 @@ padding-left: 20px;
 {
     background-color:#1E3932 ;
     padding: 5px 0;
+    margin: 0 0 5px 0;
 }
 .container-right h1
 {
@@ -102,6 +103,44 @@ padding-left: 20px;
     font-size: 32px;
 }
 .container-right p
+{
+    color: white;
+    font-size: 20px;
+}
+
+
+.container-left
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-left img
+{
+    width: 50%;
+
+}
+.container-left .text
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container-left.first
+{
+    background-color:#0044B4 ;
+    padding: 5px 0; 
+    margin: 10px 0;
+}
+.container-left h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.container-left p
 {
     color: white;
     font-size: 20px;
