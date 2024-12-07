@@ -9,7 +9,7 @@ body
 }
 header
 {
-    height: 80px;
+    height: 88px;
     width: 100%;
     border: 1px solid black;
     display: flex;
@@ -17,8 +17,22 @@ header
 }
 .logo
 {
-width: 10px;
-padding-left: 10px;
+    width: 75px;
+}
+.logo img
+{
+    padding: 10px;
+    margin: 0 0 0 20px;
+
+width: 100%;
+
+
+}
+.links_menu
+{
+    margin: 5px 0 0 0;
+    padding: 5px;
+
 }
 .links_menu, .links_menu2
 {
@@ -28,7 +42,7 @@ padding-left: 10px;
 }
 .links_menu
 {
-    width: 15%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
